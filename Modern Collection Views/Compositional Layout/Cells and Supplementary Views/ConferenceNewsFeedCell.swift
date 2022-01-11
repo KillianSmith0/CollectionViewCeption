@@ -7,7 +7,7 @@ Cell for displaying the news item
 
 import UIKit
 
-class ConferenceNewsFeedCell: UICollectionViewCell {
+final class ConferenceNewsFeedCell: UICollectionViewCell {
     static let reuseIdentifier = "conference-news-feed-cell-reuseidentifier"
 
     let titleLabel = UILabel()
@@ -30,6 +30,7 @@ class ConferenceNewsFeedCell: UICollectionViewCell {
 
 extension ConferenceNewsFeedCell {
     func configure() {
+        self.backgroundColor = .systemBlue
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         dateLabel.translatesAutoresizingMaskIntoConstraints = false
         bodyLabel.translatesAutoresizingMaskIntoConstraints = false
