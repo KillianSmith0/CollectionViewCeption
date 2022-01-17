@@ -43,6 +43,10 @@ extension ConferenceNewsController {
                  NewsFeedItem(title: "Apply for a Conference19 Scholarship",
                               date: DateComponents(year: 2019, month: 3, day: 14), body: """
                     Conference Scholarships reward talented studens and STEM orgination members with the opportunity
+                    to attend this year's conference. Apply by Sunday, March 24, 2019 at 5:00PM PDT.
+                    Conference Scholarships reward talented studens and STEM orgination members with the opportunity
+                    to attend this year's conference. Apply by Sunday, March 24, 2019 at 5:00PM PDT.
+                    Conference Scholarships reward talented studens and STEM orgination members with the opportunity
                     to attend this year's conference. Apply by Sunday, March 24, 2019 at 5:00PM PDT
                     """),
                  NewsFeedItem(title: "Conference18 Video Subtitles Now in More Languages",
@@ -54,6 +58,10 @@ extension ConferenceNewsController {
                               date: DateComponents(year: 2019, month: 6, day: 8), body: """
                     All of this year's session videos are now available with Japanese and Simplified Chinease subtitles.
                     Watch in the Videos tab or on the Apple Developer website.
+                    """),
+                 NewsFeedItem(title: "One with little text",
+                              date: DateComponents(year: 2019, month: 6, day: 8), body: """
+                    This only has one line of text 😢
                     """),
                  NewsFeedItem(title: "Close Your Rings Challenge",
                               date: DateComponents(year: 2019, month: 6, day: 8), body: """
